@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Admin Dashboard</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <div class="navbar">
+        <h1>Admin Dashboard</h1>
+        <div class="user-info">
+            Welcome, {{ admin_name }}
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="stats-panel">
+            <h2>System Statistics</h2>
+            <div class="stat-item">
+                <label>Active Users:</label>
+                <span>{{ active_users }}</span>
+            </div>
+            <div class="stat-item">
+                <label>Today's Revenue:</label>
+                <span>${{ revenue }}</span>
+            </div>
+            <div class="stat-item">
+                <label>Print Jobs:</label>
+                <span>{{ print_jobs }}</span>
+            </div>
+        </div>
+
+        <div class="active-sessions">
+            <h2>Active Sessions</h2>
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th>User</th>
+                        <th>Start Time</th>
+                        <th>Duration</th>
+                        <th>Actions</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {% for session in active_sessions %}
+                    <tr>
+                        <td>{{ session.user }}</td>
+                        <td>{{ session.start_time }}</td>
+                        <td>{{ session.duration }}</td>
+                        <td>
+                            <button onclick="endSession('{{ session.id }}')">End Session</button>
+                        </td>
+                    </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <script src="{{ url_for('static', filename='js/main.js') }}"></script>
+</body>
+</html>

@@ -1,0 +1,78 @@
+2025-05-07 21:27:02,767 [INFO] - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on https://127.0.0.1:5000
+ * Running on https://10.0.2.15:5000
+2025-05-07 21:27:02,768 [INFO] - [33mPress CTRL+C to quit[0m
+2025-05-07 21:28:23,839 [INFO] - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.0.2.15:5000
+2025-05-07 21:28:23,839 [INFO] - [33mPress CTRL+C to quit[0m
+2025-05-07 21:55:56,846 [INFO] - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.0.2.15:5000
+2025-05-07 21:55:56,846 [INFO] - [33mPress CTRL+C to quit[0m
+2025-05-07 22:07:00,599 [INFO] - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.0.2.15:5000
+2025-05-07 22:07:00,607 [INFO] - [33mPress CTRL+C to quit[0m
+2025-05-08 08:34:23,341 [ERROR] - 127.0.0.1 - - [08/May/2025 08:34:23] code 400, message Bad request version ('ða\x83þE\x0eó\x00"\x13\x01\x13\x03\x13\x02À+À/Ì©Ì¨À,À0À')
+2025-05-08 08:34:23,345 [INFO] - 127.0.0.1 - - [08/May/2025 08:34:23] "[31m[1m\x16\x03\x01\x07a\x01\x00\x07]\x03\x03\x15ÒÄ\x89b\x8c\x0cö´vXu8*>nç[7±\x8b\x17ã\x92ÜPq"{GÉå oA\x05\x8eð|\x88~2¨\x00u­×\x15\x83jÅü­8O2Ä ða\x83þE\x0eó\x00"\x13\x01\x13\x03\x13\x02À+À/Ì©Ì¨À,À0À[0m" 400 -
+2025-05-08 08:34:23,352 [ERROR] - 127.0.0.1 - - [08/May/2025 08:34:23] code 400, message Bad request version ('þUt7\x9e\x00"\x13\x01\x13\x03\x13\x02À+À/Ì©Ì¨À,À0À')
+2025-05-08 08:34:23,355 [INFO] - 127.0.0.1 - - [08/May/2025 08:34:23] "[31m[1m\x16\x03\x01\x07a\x01\x00\x07]\x03\x03\x92\x0fñÔ¦:yH\x1fHÜ\x96\x1cÆ.y®!\x8a²!N¢â#\x8fªáW\x1fÃg ìûìÀf \x19a\x80È¤:V\x1cJÃq\x92\x1cÎï=ßÁäs\x1dþUt7\x9e\x00"\x13\x01\x13\x03\x13\x02À+À/Ì©Ì¨À,À0À[0m" 400 -
+2025-05-08 08:34:23,364 [ERROR] - 127.0.0.1 - - [08/May/2025 08:34:23] code 400, message Bad request version ('\x00"\x13\x01\x13\x03\x13\x02À+À/Ì©Ì¨À,À0À')
+2025-05-08 08:34:23,364 [INFO] - 127.0.0.1 - - [08/May/2025 08:34:23] "[31m[1m\x16\x03\x01\x02\x90\x01\x00\x02\x8c\x03\x03Ùg\x02r\x9e{APÉï÷í\x8ckâj((\x8e\x9d¢X±\x10\x0e÷À\x83éL2  3\x9a\x9c\x0e¬'h¸\x81pgTàK-\x97¿çu\x12´\x0c½ÍÛÒ\x92\x15þJ|\x1c\x00"\x13\x01\x13\x03\x13\x02À+À/Ì©Ì¨À,À0À[0m" 400 -
+2025-05-08 08:52:57,325 [INFO] - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.0.2.15:5000
+2025-05-08 08:52:57,326 [INFO] - [33mPress CTRL+C to quit[0m
+2025-05-08 08:55:14,828 [ERROR] - 192.168.107.4 - - [08/May/2025 08:55:14] code 400, message Bad request version ("\x9ff\x97áí¯\x89ôD;÷`ÔÎt_©0\x00>\x13\x02\x13\x03\x13\x01À,À0\x00\x9fÌ©Ì¨ÌªÀ+À/\x00\x9eÀ$À(\x00kÀ#À'\x00gÀ")
+2025-05-08 08:55:14,829 [INFO] - 192.168.107.4 - - [08/May/2025 08:55:14] "[31m[1m\x16\x03\x01\x02\x00\x01\x00\x01ü\x03\x03\x096³±M\x9bÊ(\x0b¶Çì\x96_0Ê\\\x8aîQÈê\x1a\x89\x97xS\x12Û\x0e\x90\x9d I\x09\x9a\x8aþÀ\x1aÙdà\x96)Ã \x9ff\x97áí¯\x89ôD;÷`ÔÎt_©0\x00>\x13\x02\x13\x03\x13\x01À,À0\x00\x9fÌ©Ì¨ÌªÀ+À/\x00\x9eÀ$À(\x00kÀ#À'\x00gÀ[0m" 400 -
+2025-05-08 13:38:24,320 [INFO] - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.0.2.15:5000
+2025-05-08 13:38:24,321 [INFO] - [33mPress CTRL+C to quit[0m
+2025-05-08 13:49:28,047 [INFO] - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.0.2.15:5000
+2025-05-08 13:49:28,050 [INFO] - [33mPress CTRL+C to quit[0m
+2025-05-08 13:57:45,738 [INFO] - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.0.2.15:5000
+2025-05-08 13:57:45,739 [INFO] - [33mPress CTRL+C to quit[0m
+2025-05-08 14:27:46,421 [INFO] - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.0.2.15:5000
+2025-05-08 14:27:46,432 [INFO] - [33mPress CTRL+C to quit[0m
+2025-05-08 14:58:51,088 [INFO] - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.0.2.15:5000
+2025-05-08 14:58:51,089 [INFO] - [33mPress CTRL+C to quit[0m
+2025-05-08 15:14:10,275 [INFO] - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on https://127.0.0.1:5000
+ * Running on https://10.0.2.15:5000
+2025-05-08 15:14:10,276 [INFO] - [33mPress CTRL+C to quit[0m
+2025-05-08 15:17:55,996 [INFO] - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on https://127.0.0.1:5000
+ * Running on https://10.0.2.15:5000
+2025-05-08 15:17:55,996 [INFO] - [33mPress CTRL+C to quit[0m
+2025-05-08 20:42:43,860 [INFO] - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on https://127.0.0.1:5000
+ * Running on https://10.0.2.15:5000
+2025-05-08 20:42:43,861 [INFO] - [33mPress CTRL+C to quit[0m
+2025-05-08 21:08:02,605 [INFO] - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on https://127.0.0.1:5000
+ * Running on https://10.0.2.15:5000
+2025-05-08 21:08:02,606 [INFO] - [33mPress CTRL+C to quit[0m
