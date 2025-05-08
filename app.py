@@ -45,7 +45,7 @@ def log_activity(user_id, action, ip_address):
     try:
         logging.info(f"User {user_id} performed {action} from {ip_address}")
     except Exception as e:
-        logging.error(f"Activity loggin error: {e}")
+        logging.error(f"Activity logging error: {e}")
 
 @app.route('/')
 def index():
@@ -78,16 +78,16 @@ def start_session():
         logging.error(f"Session start error: {e}")
         return jsonify({'error': 'Server error'}), 500
 
-@app.route('end_session', methods=['POST'])
+@app.route('/end_session', methods=['POST'])
 def end_session():
     if 'user_id' not in session:
-        return jsonify({'error': 'Not authenticated'}), 402
+        return jsonify({'error': 'Not authenticated'}), 401
 
     try:
         log_activity(session['user_id'], 'end_session', request.remote_addr)
         return jsonify({'status': 'success'})
     except Exception as e:
-        logging.erro(f"Session end error: {e}")
+        logging.error(f"Session end error: {e}")
         return jsonify({'error': 'Server error'}), 500
 
 @app.route('/print', methods=['POST'])
@@ -118,7 +118,7 @@ def print_document():
         if 'temp_path' in locals() and os.path.exists(temp_path):
             os.remove(temp_path)
 
-@app.route('get_balance', methods=['Get'])
+@app.route('/get_balance', methods=['GET'])
 def get_balance():
     if 'user_id' not in session:
         return jsonify({'error': 'Not authenticated'}), 401
@@ -130,7 +130,7 @@ def get_balance():
         logging.error(f"Balance check error: {e}")
         return jsonify({'error': 'Server error'}), 500
 
-@app.route('/add_credit,', methdos=['POST'])
+@app.route('/add_credit', methods=['POST'])
 def add_credit():
     if 'user_id' not in session:
         return jsonify({'error': 'Not authenticated'}), 401
@@ -166,10 +166,7 @@ def internal_error(e):
     return jsonify({'error': 'Internal server error'}), 500
 
 if __name__ == '__main__':
-
-    app.secret_key = os.urandom(24) 
-
+    app.secret_key = os.urandom(24)
     if not os.path.exists('logs'):
         os.makedirs('logs')
-
-app.run(host = '0.0.0.0', port = 5000, ssl_context = 'adhoc')
+    app.run(host='0.0.0.0', port=5000, ssl_context='adhoc')
